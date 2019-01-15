@@ -3,7 +3,7 @@ from setuptools import setup
 
 args = dict(
     name="app-compose",
-    version='0.0.1',
+    version='0.0.2',
     entry_points=dict(
         console_scripts=[
             "ac=app_compose:main",
@@ -11,10 +11,10 @@ args = dict(
         ],
     ),
     install_requires=[
-        'click==6.7',
-        'colorama==0.3.9',
-        'pyyaml==3.13',
-        'related==0.6.3',
+        'click',
+        'colorama',
+        'pyyaml',
+        'related',
     ]
 )
 
